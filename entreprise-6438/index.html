@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> - Expert RGE à SAINT-PALAIS</title>
+    <title> - Expert RGE à MARSEILLE</title>
     <meta name="description"
-        content="Expert certifié RGE à SAINT-PALAIS. Rénovation. Devis gratuit et intervention rapide.">
+        content="Expert certifié RGE à MARSEILLE. Rénovation. Devis gratuit et intervention rapide.">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -155,7 +155,7 @@
             width: 100%;
             height: 100%;
             background-image: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.7)),
-            url('https://images.unsplash.com/photo-1592833159117-ac790d4066e4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            url('https://images.unsplash.com/photo-1761319914911-71b059a655d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
             background-size: cover;
             background-position: center;
             z-index: -1;
@@ -754,27 +754,78 @@
         }
 
         @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2.8rem;
+
+            /* Header Optimization */
+            header {
+                padding: 12px 0;
             }
 
             .nav-container {
-                flex-direction: column;
-                gap: 20px;
+                flex-direction: row;
+                align-items: center;
+                gap: 15px;
             }
 
+            .logo {
+                font-size: 1rem;
+                line-height: 1.2;
+                max-width: 60%;
+            }
+
+            .logo i {
+                font-size: 1.2rem;
+            }
+
+            .cta-btn {
+                padding: 10px 16px;
+                font-size: 0.9rem;
+            }
+
+            /* Hero Optimization */
+            .hero {
+                padding-top: 110px;
+                /* Clear the header */
+                padding-bottom: 60px;
+                min-height: auto;
+                /* Allow content to dictate height */
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+                margin-bottom: 16px;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+                margin-bottom: 32px;
+            }
+
+            .hero-badges {
+                gap: 10px;
+                margin-bottom: 30px;
+            }
+
+            .badge {
+                padding: 6px 12px;
+                font-size: 0.8rem;
+            }
+
+            /* General Layout */
             .contact-wrapper {
                 flex-direction: column;
             }
 
             .contact-info,
             .contact-form {
-                padding: 40px;
+                padding: 30px 20px;
             }
 
             .trust-card {
-                grid-template-columns: 1fr 1fr;
-                gap: 20px;
+                grid-template-columns: 1fr;
+            }
+
+            .section-title {
+                font-size: 2rem;
             }
         }
     </style>
@@ -802,17 +853,17 @@
                 <div class="hero-badges">
                     <div class="badge"><i class="fas fa-check-circle"></i> Certifié RGE</div>
                     
-                    <div class="badge"><i class="fas fa-map-marker-alt"></i> SAINT-PALAIS</div>
+                    <div class="badge"><i class="fas fa-map-marker-alt"></i> MARSEILLE</div>
                 </div>
                 <h1>Expert en rénovation énergétique & confort thermique</h1>
-                <p>Depuis 1987, nan est votre expert RGE en panneaux solaires à Saint-Palais et ses environs. Bénéficiez des aides MaPrimeRénov' avec un professionnel certifié.</p>
+                <p>Depuis 1991, nan est votre expert RGE en pompes à chaleur, chauffe-eau thermodynamique à Marseille et ses environs. Bénéficiez des aides MaPrimeRénov' avec un professionnel certifié.</p>
                 <div style="display: flex; gap: 16px; flex-wrap: wrap;">
                     <a href="#contact" class="cta-btn" style="padding: 16px 32px; font-size: 1.1rem;">
                         Obtenir mon étude gratuite
                     </a>
-                    <a href="tel:05 59 65 74 30" class="cta-btn"
+                    <a href="tel:06 76 85 96 15" class="cta-btn"
                         style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.3); color: white; box-shadow: none;">
-                        <i class="fas fa-phone-alt"></i> 05 59 65 74 30
+                        <i class="fas fa-phone-alt"></i> 06 76 85 96 15
                     </a>
                 </div>
             </div>
@@ -822,7 +873,7 @@
     <div class="container">
         <div class="trust-card" data-aos="fade-up" data-aos-offset="-100">
             <div class="stat-item">
-                <h3>38</h3>
+                <h3>34</h3>
                 <p>Années d'expérience</p>
             </div>
             
@@ -852,14 +903,14 @@
             <img src="https://www.qualit-enr.org/wp-content/themes/yagami-adveris/web/src/img/qualit-enr-logo.png" alt="Certification RGE">
         </div>
         
-        <div class="cert-logo" title="QualiPV">
-            <img src="https://www.qualit-enr.org/wp-content/uploads/2024/12/logo-QualiPV-2025-RGE_sc.png" alt="Certification QualiPV">
+        <div class="cert-logo" title="QualiPAC">
+            <img src="https://www.qualit-enr.org/wp-content/uploads/2024/12/logo-QualiPAC-2025-RGE_sc.png" alt="Certification QualiPAC">
         </div>
         
             </div>
             
         <div style="text-align: center; width: 100%;">
-            <a href="https://www.qualifelec.fr/certifmoteur/44448/699475.pdf" target="_blank" style="text-decoration: none;">
+            <a href="https://www.qualifelec.fr/certifmoteur/52826/736573.pdf" target="_blank" style="text-decoration: none;">
                 <div class="cert-pdf-card">
                     <div class="cert-pdf-icon">
                         <i class="fas fa-file-contract"></i>
@@ -867,7 +918,7 @@
                     <div class="cert-pdf-content">
                         <div class="cert-pdf-title">Certificat RGE Officiel</div>
                         <div class="cert-pdf-subtitle" style="color: #10b981; font-weight: 500;">
-                            <i class="fas fa-check-circle" style="font-size: 0.8em;"></i> Valide jusqu'au 2026-07-07
+                            <i class="fas fa-check-circle" style="font-size: 0.8em;"></i> Valide jusqu'au 2026-08-29
                         </div>
                     </div>
                     <div class="cert-pdf-action">
@@ -891,15 +942,15 @@
             <div class="services-grid">
                 
         <div class="service-card" data-aos="fade-up" data-aos-delay="0">
-            <div class="service-icon"><i class="fas fa-solar-panel"></i></div>
-            <h3>Panneaux Solaires</h3>
-            <p>Production d'électricité verte et autoconsommation pour réduire vos factures.</p>
+            <div class="service-icon"><i class="fas fa-fan"></i></div>
+            <h3>Pompe à Chaleur</h3>
+            <p>Installation et maintenance de PAC air-air et air-eau pour un confort thermique optimal.</p>
         </div>
         
         <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-icon"><i class="fas fa-wind"></i></div>
-            <h3>Ventilation</h3>
-            <p>VMC simple et double flux pour un air intérieur sain.</p>
+            <div class="service-icon"><i class="fas fa-water"></i></div>
+            <h3>Chauffe-eau Thermodynamique</h3>
+            <p>Eau chaude sanitaire économique grâce à l'aérothermie.</p>
         </div>
         
             </div>
@@ -924,21 +975,21 @@
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h4>Adresse</h4>
-                            <p>45 IMPASSE GAZTE XOKO<br>64120 SAINT-PALAIS</p>
+                            <p>43 BOULEVARD NATIONAL<br>13001 MARSEILLE</p>
                         </div>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-phone"></i>
                         <div>
                             <h4>Téléphone</h4>
-                            <p>05 59 65 74 30</p>
+                            <p>06 76 85 96 15</p>
                         </div>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h4>Email</h4>
-                            <p>e2b64@orange.fr</p>
+                            <p>etg.climatisation@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -973,13 +1024,13 @@
             <div class="map-grid">
                 <div class="map-info" data-aos="fade-right">
                     <h3>Nous trouver</h3>
-                    <p class="map-desc">Notre équipe intervient à SAINT-PALAIS et ses alentours pour tous vos projets de rénovation énergétique.</p>
+                    <p class="map-desc">Notre équipe intervient à MARSEILLE et ses alentours pour tous vos projets de rénovation énergétique.</p>
                     
                     <div class="info-row">
                         <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
                         <div>
                             <h4>Adresse</h4>
-                            <p>45 IMPASSE GAZTE XOKO<br>64120 SAINT-PALAIS</p>
+                            <p>43 BOULEVARD NATIONAL<br>13001 MARSEILLE</p>
                         </div>
                     </div>
                     
@@ -991,7 +1042,7 @@
                         </div>
                     </div>
 
-                    <a href="https://www.google.com/maps/dir/?api=1&destination=43.317722033,-1.024568959" target="_blank" class="map-btn">
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=43.303035341,5.3861915364" target="_blank" class="map-btn">
                         <i class="fas fa-location-arrow"></i> Obtenir l'itinéraire
                     </a>
                 </div>
@@ -1001,7 +1052,7 @@
                         height="100%" 
                         frameborder="0" 
                         style="border:0;"
-                        src="https://maps.google.com/maps?q=43.317722033,-1.024568959&hl=fr&z=14&output=embed"
+                        src="https://maps.google.com/maps?q=43.303035341,5.3861915364&hl=fr&z=14&output=embed"
                         allowfullscreen>
                     </iframe>
                 </div>
